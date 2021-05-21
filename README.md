@@ -17,7 +17,7 @@ Analyze variety of school data on student funding and student standardized test 
 ## Results
 School district analysis results before and after replacing Thomas high school 9th grader scores: 
 
-- School District Summary	
+- **School District Summary**	
 	- Math, Reading and overall passing percentage decreased slightly after replacing Thomas high school data for 9th graders. 
 
 **Original Analysis**
@@ -25,19 +25,38 @@ School district analysis results before and after replacing Thomas high school 9
 **Updated Analysis**
 ![image](https://user-images.githubusercontent.com/83181834/119054902-44b9a600-b97d-11eb-90a9-241f94e3729f.png)
 
-- School Summary	
+- **School Summary**	
 	-  There is some percentage drop in math, reading and overall passing for Thomas high school after replaced values but its less than 1 %.
 
+**Original Analysis**
+![image](https://user-images.githubusercontent.com/83181834/119064607-8bfd6200-b990-11eb-99ff-40431e826865.png)
 
-- Thomas High school performance vs  Other high schools 
+**Updated Analysis**
+![image](https://user-images.githubusercontent.com/83181834/119064639-a0d9f580-b990-11eb-9f3f-05a207dcf677.png)
 
-- Following insights are affected by replacing scores.
-	- Math and reading scores by grade
-	- Scores by school spending
-	- Scores by school size 
-	- Scores by school type 
+- **Thomas High school performance vs  Other high schools **
+	- Thomas High school performance wasn't changed and still hold second spot on top schools. 
 
-	
+**Original Analysis**
+![image](https://user-images.githubusercontent.com/83181834/119064163-9703c280-b98f-11eb-95ca-279cf242a836.png)
+
+**Updated Analysis**
+![image](https://user-images.githubusercontent.com/83181834/119064212-b1d63700-b98f-11eb-957d-22f67d32dde4.png)
+
+
+- **Following insights are affected by replacing scores.**
+
+--> Math and reading scores by grade : Math and reading scores are affected greatly by the replacment for NaN's. As shown in below snapshot, updated analysis shows NaN's for 9th grade math and reading score for Thomas High school.
+<img width="561" alt="math_score" src="https://user-images.githubusercontent.com/83181834/119066796-6de63080-b995-11eb-9495-6db4a37c9bb2.png">
+<img width="588" alt="reading_score" src="https://user-images.githubusercontent.com/83181834/119066799-6faff400-b995-11eb-94d0-73408fec8148.png">
+--> Scores by school spending : Percentage values dropped for spending bin $630 - 644 because of Thomas high school.
+<img width="645" alt="spending_score" src="https://user-images.githubusercontent.com/83181834/119066671-23fd4a80-b995-11eb-85e8-0eb6e7b72e57.png">
+--> Scores by school size : Percentage values dropped for size medium because of Thomas  high school
+<img width="612" alt="size_score" src="https://user-images.githubusercontent.com/83181834/119066682-2c558580-b995-11eb-80b6-774ba6ed388c.png">
+--> Scores by school type : Percentage valuse dropped for Charter school because of Thomas high school 
+<img width="600" alt="type_score" src="https://user-images.githubusercontent.com/83181834/119066690-32e3fd00-b995-11eb-82aa-40f30587727e.png">
+
+
 ## Summary
 << Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.>>
 
