@@ -49,14 +49,22 @@ School district analysis results before and after replacing Thomas high school 9
 --> Math and reading scores by grade : Math and reading scores are affected greatly by the replacment for NaN's. As shown in below snapshot, updated analysis shows NaN's for 9th grade math and reading score for Thomas High school.
 <img width="561" alt="math_score" src="https://user-images.githubusercontent.com/83181834/119066796-6de63080-b995-11eb-9495-6db4a37c9bb2.png">
 <img width="588" alt="reading_score" src="https://user-images.githubusercontent.com/83181834/119066799-6faff400-b995-11eb-94d0-73408fec8148.png">
+
 --> Scores by school spending : Percentage values dropped for spending bin $630 - 644 because of Thomas high school.
 <img width="645" alt="spending_score" src="https://user-images.githubusercontent.com/83181834/119066671-23fd4a80-b995-11eb-85e8-0eb6e7b72e57.png">
+
 --> Scores by school size : Percentage values dropped for size medium because of Thomas  high school
 <img width="612" alt="size_score" src="https://user-images.githubusercontent.com/83181834/119066682-2c558580-b995-11eb-80b6-774ba6ed388c.png">
+
 --> Scores by school type : Percentage valuse dropped for Charter school because of Thomas high school 
 <img width="600" alt="type_score" src="https://user-images.githubusercontent.com/83181834/119066690-32e3fd00-b995-11eb-82aa-40f30587727e.png">
 
 
 ## Summary
+While there is less than 1% change in data for School district summary and school summary metrics there are some big changes in other insights because of the data replacement regarding Thomas high school.
+- Math and reading scores of Thomas high school 9th grade is lacking data with NaN values.
+- Scores by school spending percentage values (math,reading and overall passing) dropped by 6-7% for $639-644 spending range because Thomas high school falls in that range. 
+- Scores by size percentage values (math,reading and overall passing) dropped by 6% for Medium (1000-2000) range because Thomas high school student population is 1635.
+- Scores by type percentage values (math,reading and overall passing dropped by 3-4% for charter schools since Thomas high school belong in that category. 
 << Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.>>
 
