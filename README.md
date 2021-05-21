@@ -66,5 +66,4 @@ While there is less than 1% change in data for School district summary and schoo
 - Scores by school spending percentage values (math,reading and overall passing) dropped by 6-7% for $639-644 spending range because Thomas high school falls in that range. 
 - Scores by size percentage values (math,reading and overall passing) dropped by 6% for Medium (1000-2000) range because Thomas high school student population is 1635.
 - Scores by type percentage values (math,reading and overall passing dropped by 3-4% for charter schools since Thomas high school belong in that category. 
-<< Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.>>
 
