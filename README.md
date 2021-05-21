@@ -20,11 +20,16 @@ School district analysis results before and after replacing Thomas high school 9
 - School District Summary	
 	- Math, Reading and overall passing percentage decreased slightly after replacing Thomas high school data for 9th graders. 
 
+**Original Analysis**
+![image](https://user-images.githubusercontent.com/83181834/119054769-12a84400-b97d-11eb-9354-d9f9c5ef3b61.png)
+**Updated Analysis**
+![image](https://user-images.githubusercontent.com/83181834/119054902-44b9a600-b97d-11eb-90a9-241f94e3729f.png)
+
 - School Summary	
-	-  
+	-  There is some percentage drop in math, reading and overall passing for Thomas high school after replaced values but its less than 1 %.
 
 
-- Thomas High school performance vs Other high schools 
+- Thomas High school performance vs  Other high schools 
 
 - Following insights are affected by replacing scores.
 	- Math and reading scores by grade
